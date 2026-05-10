@@ -25,6 +25,7 @@ class Hunk < Formula
   end
 
   def install
+    chmod 0755, "hunk"
     libexec.install "hunk"
     (bin/"hunk").write_env_script libexec/"hunk", HUNK_INSTALL_SOURCE: "homebrew"
   end
