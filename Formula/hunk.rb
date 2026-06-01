@@ -1,26 +1,26 @@
 class Hunk < Formula
   desc "Desktop-inspired terminal diff viewer for agent-authored changesets"
   homepage "https://github.com/modem-dev/hunk"
-  version "0.14.0"
+  version "0.14.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/modem-dev/hunk/releases/download/v0.14.0/hunkdiff-darwin-arm64.tar.gz"
-      sha256 "b46f6446f9baf6604e370d64cfc37764e35c5ca2eed496b537e4817d0492c6f9"
+      url "https://github.com/modem-dev/hunk/releases/download/v0.14.1/hunkdiff-darwin-arm64.tar.gz"
+      sha256 "9e8b03fb66e3e0fa125fe7d04b0fd7f5cb7ef3f734ee9f38d3007d150a77991f"
     else
-      url "https://github.com/modem-dev/hunk/releases/download/v0.14.0/hunkdiff-darwin-x64.tar.gz"
-      sha256 "fc22b4c6a6542a4470728475d8c4c772b2d383146b9b1732f589e2f1021acb5d"
+      url "https://github.com/modem-dev/hunk/releases/download/v0.14.1/hunkdiff-darwin-x64.tar.gz"
+      sha256 "5e06aa15218959f1038fd5515705efa0df6a681858c410eeba800476f7fc14d2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/modem-dev/hunk/releases/download/v0.14.0/hunkdiff-linux-arm64.tar.gz"
-      sha256 "05bab97bb639db880b822c202cf259787598e3d679517e765bcbbae1655b63e5"
+      url "https://github.com/modem-dev/hunk/releases/download/v0.14.1/hunkdiff-linux-arm64.tar.gz"
+      sha256 "0000495fab0405f4469f67f8ea33db9066f009972f7044f321750a6d19de1c4e"
     else
-      url "https://github.com/modem-dev/hunk/releases/download/v0.14.0/hunkdiff-linux-x64.tar.gz"
-      sha256 "7fcfd1d0e01a24648946aedbf571e26256601e72d3c6ecf61a67eb63449680e8"
+      url "https://github.com/modem-dev/hunk/releases/download/v0.14.1/hunkdiff-linux-x64.tar.gz"
+      sha256 "7a79a1203e8be2dafcf8a0e0be2f17bc984cb050be195a0710a8776244aa88fe"
     end
   end
 
